@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: reactapp
+    restart: always
+    working_dir: /app
+    volumes:
+      - ./foo/src:/app/src
+      - /app/node_modules
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backendapp
+    restart: always
+    volumes:
+      - .:/app
+      - /app/node_modules
