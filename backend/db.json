@@ -102,7 +102,7 @@
   ],
   "comments": [
     {
-      "body": "Great camp to visit!!!!!",
+      "body": "Great camp to visit.",
       "userId": "4qeHDdb",
       "campId": "1",
       "createdAt": 1668746522922,
@@ -116,11 +116,18 @@
       "id": "Bt-WILL"
     },
     {
-      "body": "Great Camp. I enjoyed it!!!!",
+      "body": "Great Camp. I enjoyed it :)",
       "userId": "5nvBfp1",
       "createdAt": 1668747863490,
       "campId": "1",
       "id": "l3DdmW7"
+    },
+    {
+      "body": "Bad camp",
+      "userId": "5nvBfp1",
+      "createdAt": 1668974281362,
+      "campId": "1",
+      "id": "CYW2muy"
     }
   ]
 }
